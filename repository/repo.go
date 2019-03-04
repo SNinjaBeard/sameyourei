@@ -14,7 +14,7 @@ import (
 )
 
 /*
-init opens db connectionpool and returns an sql.DB struct to
+init opens db connectionpool and returns a sql.DB struct to
 manage connectionpool */
 func init() {
 	fmt.Println("repository.init()")
